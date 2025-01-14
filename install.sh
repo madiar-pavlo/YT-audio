@@ -12,7 +12,6 @@ if ! command -v yt-dlp &> /dev/null; then
 else
   echo "yt-dlp уже установлен."
 fi
-d
 # Установка ffmpeg
 if ! command -v ffmpeg &> /dev/null; then
   echo "Устанавливаю ffmpeg..."
